@@ -23,7 +23,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-900 text-white font-sans flex flex-col">
       <Header currentPage={currentPage} onNavigate={setCurrentPage} />
-      <main className="container mx-auto px-6 pb-12 flex-grow">
+      <main className="container mx-auto px-6 flex-grow">
         {renderPage()}
       </main>
       <Footer />
